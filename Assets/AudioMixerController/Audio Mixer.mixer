@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Audio Mixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300000, guid: 9ad4aa2dcd3a44748869a3c435e6367c, type: 2}
+  m_Snapshots:
+  - {fileID: 24500000, guid: aae0de7a73c34c94c8fa085ed71d3875, type: 2}
+  m_StartSnapshot: {fileID: 24500000, guid: aae0de7a73c34c94c8fa085ed71d3875, type: 2}
+  m_SuspendThreshold: 0
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews: []
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 0}
