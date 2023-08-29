@@ -21,9 +21,9 @@ MonoBehaviour:
   _duration: 30
   _periodDuration: 0
   _maximumQuantity: 1
-  _barrierEffect: {fileID: 1436505898393026, guid: 28cf52e0f2f9db84da6484018b8e0105, type: 2}
+  _barrierEffect: {fileID: 1111496161066355, guid: 3df5d1a8bfe64f543b10a872f294aba1, type: 2}
   _invulnerableEffect:
-    _behaviour: {fileID: 11400000, guid: c2ccc4b0fd030064cb84279f82486281, type: 2}
+    _behaviour: {fileID: 11400000, guid: 5e8144116351c7c4c927992f9bdc258d, type: 2}
     _magnitude: 0
     _quantity: 0
     _duration: 5

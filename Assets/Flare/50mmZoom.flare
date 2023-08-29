@@ -6,7 +6,7 @@ Flare:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 50mmZoom
-  m_FlareTexture: {fileID: 2800000, guid: a3af3664fbbc1d84a994e375b65d658b, type: 3}
+  m_FlareTexture: {fileID: 2800000, guid: 5004f964d8e376b49bfadf25886fe286, type: 3}
   m_TextureLayout: 1
   m_Elements:
   - m_ImageIndex: 9

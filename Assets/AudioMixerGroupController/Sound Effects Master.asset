@@ -6,10 +6,10 @@ AudioMixerGroupController:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Sound Effects Master
-  m_AudioMixer: {fileID: 24100000, guid: c7b840b3a75a75c44b008f8c8038b247, type: 2}
+  m_AudioMixer: {fileID: 24100000, guid: 221481717af0f0143995c0498da0b49d, type: 2}
   m_GroupID: 5c9ad973450964443854ada6d8fe335d
   m_Children:
-  - {fileID: 24300000, guid: c9147cec2fa26f648a4700cfb82bba09, type: 2}
+  - {fileID: 24300000, guid: 35912a028c38d9c428251a243f748dda, type: 2}
   m_Volume: 00000000000000000000000000000000
   m_Pitch: 00000000000000000000000000000000
   m_Effects: []

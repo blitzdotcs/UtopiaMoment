@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: Rings
   m_EditorClassIdentifier:
   _displayName: rings
-  _icon: {fileID: 21300000, guid: 2b9ee825ed0f7ff45a269f666f602e6f, type: 2}
-  _sceneObject: {fileID: 114577926412495206, guid: 9ddc481fe251f164ba53aae46894d121, type: 2}
+  _icon: {fileID: 21300000, guid: 71db6b947dc3ced4485172c4e38e6f57, type: 2}
+  _sceneObject: {fileID: 114653597080245485, guid: a208ac0910a3228499550f3d584e2fc9, type: 2}
   _maximumQuantity: 999999
   _value: 0
   _weight: 0

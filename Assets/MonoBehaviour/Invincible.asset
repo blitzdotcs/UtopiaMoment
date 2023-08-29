@@ -21,14 +21,14 @@ MonoBehaviour:
   _duration: 15
   _periodDuration: 0
   _maximumQuantity: 0
-  _invincibilityEffect: {fileID: 1424262995574163, guid: c65a62b96a55bb040b98be13b6d6f021, type: 2}
+  _invincibilityEffect: {fileID: 1234606099583152, guid: 116817d693bae3343bbdc61e783c2424, type: 2}
   _impact:
     _requiredTags:
       _tags: []
     _blockedByTags:
       _tags: []
     _effects:
-    - _behaviour: {fileID: 11400000, guid: 66ed72d63e3f15f45b941084e5da648e, type: 2}
+    - _behaviour: {fileID: 11400000, guid: f62cd350863cb3742a3d32d499f3e936, type: 2}
       _magnitude: 1000
       _quantity: 0
       _duration: 0

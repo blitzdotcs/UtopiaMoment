@@ -18,13 +18,13 @@ Material:
     - first:
         name: _Cube
       second:
-        m_Texture: {fileID: 8900000, guid: 56bcb93bcbedddc40965f24f9ac7e55c, type: 3}
+        m_Texture: {fileID: 8900000, guid: 651c28e7952c7d345ba04be3d7c612fc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 90fadfa888c9b194fa81c191bf5f9688, type: 3}
+        m_Texture: {fileID: 2800000, guid: 99074f8a61066bd4b833f43a130537e9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

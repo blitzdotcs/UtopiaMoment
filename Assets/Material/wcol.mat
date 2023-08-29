@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: wcol
-  m_Shader: {fileID: 4800000, guid: c9dc7b4eaa375f5468f9da65f151e43f, type: 3}
+  m_Shader: {fileID: 4800000, guid: 9ff33acae9446404ebce8d3423d70691, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1

@@ -18,13 +18,13 @@ Material:
     - first:
         name: _BumpMap
       second:
-        m_Texture: {fileID: 2800000, guid: 0d292e274c03624458608b17c945ad29, type: 3}
+        m_Texture: {fileID: 2800000, guid: e29bdf0e88a17e94498c656db6b95e61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 84a2dc8a255ae1348a0813dbb58f4db1, type: 3}
+        m_Texture: {fileID: 2800000, guid: de459b7c77af666409b8c1ac9a31f0ff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

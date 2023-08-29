@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1704602786021984}
+  m_RootGameObject: {fileID: 1638585861738931}
   m_IsPrefabParent: 1
---- !u!1 &1704602786021984
+--- !u!1 &1638585861738931
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4179834034453188}
-  - 114: {fileID: 114505365846088929}
-  - 82: {fileID: 82805803867694114}
+  - 4: {fileID: 4652067547230699}
+  - 114: {fileID: 114176251741608910}
+  - 82: {fileID: 82586030350985621}
   m_Layer: 0
   m_Name: Effect - Skid Power
   m_TagString: Untagged
@@ -28,12 +28,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4179834034453188
+--- !u!4 &4652067547230699
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1704602786021984}
+  m_GameObject: {fileID: 1638585861738931}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.7258835, y: -1.4698048, z: -7.688877}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -41,12 +41,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114505365846088929
+--- !u!114 &114176251741608910
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1704602786021984}
+  m_GameObject: {fileID: 1638585861738931}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9bf9366cd39f96ee7e33dd329c7aae89, type: 3}
@@ -62,16 +62,16 @@ MonoBehaviour:
     m_Bits: 0
   _attachStartHeight: 0
   _attachDistance: 0
---- !u!82 &82805803867694114
+--- !u!82 &82586030350985621
 AudioSource:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1704602786021984}
+  m_GameObject: {fileID: 1638585861738931}
   m_Enabled: 1
-  OutputAudioMixerGroup: {fileID: 24300000, guid: 1c96c597a73ba7744bb2a0ab5d640fbc, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 9a37f3d580831d045b8605e1c997ee38, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300000, guid: eb883bf00a060be41bfe3a3a6a4cf3e9, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 484709f256aa63e47812dfcefa056ea6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

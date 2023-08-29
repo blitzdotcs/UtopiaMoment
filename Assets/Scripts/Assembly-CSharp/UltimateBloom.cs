@@ -665,7 +665,7 @@ public class UltimateBloom : MonoBehaviour
 	private void OnRenderImage(RenderTexture source, RenderTexture destination)
 	{
 		bool flag = false;
-		flag = ((m_HDR != 0) ? (m_HDR == HDRBloomMode.On) : (source.format == RenderTextureFormat.ARGBHalf && GetComponent<Camera>().hdr));
+		flag = ((m_HDR != 0) ? (m_HDR == HDRBloomMode.On) : (source.format == RenderTextureFormat.ARGBHalf && GetComponent<Camera>().allowHDR));
 		m_Format = ((!flag) ? RenderTextureFormat.Default : RenderTextureFormat.ARGBHalf);
 		if (m_DownSamples != null && m_DownSamples.Length != GetNeededDownsamples())
 		{

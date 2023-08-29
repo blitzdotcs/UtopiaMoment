@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1838776237545724}
+  m_RootGameObject: {fileID: 1117689747615723}
   m_IsPrefabParent: 1
---- !u!1 &1838776237545724
+--- !u!1 &1117689747615723
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4234336717448049}
-  - 114: {fileID: 114568983300056219}
+  - 4: {fileID: 4010790843512992}
+  - 114: {fileID: 114321499151491149}
   m_Layer: 0
   m_Name: Ring Dropper
   m_TagString: Untagged
@@ -27,12 +27,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4234336717448049
+--- !u!4 &4010790843512992
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1838776237545724}
+  m_GameObject: {fileID: 1117689747615723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.25, y: 1, z: 18.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,18 +40,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114568983300056219
+--- !u!114 &114321499151491149
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1838776237545724}
+  m_GameObject: {fileID: 1117689747615723}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2ab28da3b4306f1cfc710c4bd51ce29, type: 3}
   m_Name:
   m_EditorClassIdentifier:
-  _ringPrefab: {fileID: 114577926412495206, guid: 9ddc481fe251f164ba53aae46894d121, type: 2}
+  _ringPrefab: {fileID: 114653597080245485, guid: a208ac0910a3228499550f3d584e2fc9, type: 2}
   _dropTimeBuffer: 0.02
   _startingRings: 10
   _inheritVelocity: 0
@@ -62,23 +62,23 @@ MonoBehaviour:
     _effect:
       _name: Ring Drop A
       _spawnMethod: 2
-      _effectObject: {fileID: 114980317366090558, guid: ec1ef4a4703e7914ba6a5a037ce558bf, type: 2}
-      _effectSource: {fileID: 4234336717448049}
+      _effectObject: {fileID: 114417287564941912, guid: ba816dd99ed53394d9f329453616371f, type: 2}
+      _effectSource: {fileID: 4010790843512992}
       _offsetPosition: {x: 0, y: 0.5, z: 0}
       _offsetRotation: {x: 0, y: 0, z: 0}
   - _threshold: 20
     _effect:
       _name: Ring Drop B
       _spawnMethod: 2
-      _effectObject: {fileID: 114169824342381364, guid: d4feaf015725e7f49acaf0fe88bafe3c, type: 2}
-      _effectSource: {fileID: 4234336717448049}
+      _effectObject: {fileID: 114070935580449372, guid: 1d3b729c36dd44546a5450339802ae1d, type: 2}
+      _effectSource: {fileID: 4010790843512992}
       _offsetPosition: {x: 0, y: 0.5, z: 0}
       _offsetRotation: {x: 0, y: 0, z: 0}
   - _threshold: 40
     _effect:
       _name: Ring Drop C
       _spawnMethod: 2
-      _effectObject: {fileID: 114401067683796906, guid: d694f95d452d2854f9d1c38591888d5f, type: 2}
-      _effectSource: {fileID: 4234336717448049}
+      _effectObject: {fileID: 114206719016574875, guid: 2fd52127930ff2443a0afc73aa835dd5, type: 2}
+      _effectSource: {fileID: 4010790843512992}
       _offsetPosition: {x: 0, y: 0, z: 0}
       _offsetRotation: {x: 0, y: 0, z: 0}

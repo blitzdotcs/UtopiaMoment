@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: objects
-  m_Shader: {fileID: 4800000, guid: c9dc7b4eaa375f5468f9da65f151e43f, type: 3}
+  m_Shader: {fileID: 4800000, guid: 9ff33acae9446404ebce8d3423d70691, type: 3}
   m_ShaderKeywords:
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -48,7 +48,7 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: bedbfffbee5e6ae4f9a2e688d290e3fd, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3f44e769449325848a79f4ad600bd380, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:

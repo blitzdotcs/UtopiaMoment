@@ -30,14 +30,14 @@ MonoBehaviour:
   _canCancel: 0
   _canInterrupt: 0
   _invulnerableEffect:
-    _behaviour: {fileID: 11400000, guid: c2ccc4b0fd030064cb84279f82486281, type: 2}
+    _behaviour: {fileID: 11400000, guid: 5e8144116351c7c4c927992f9bdc258d, type: 2}
     _magnitude: 0
     _quantity: 0
     _duration: 5
   _damageEffectName: Damage
   _recoilAngle: 65
   _recoilSpeed: 20
-  _rings: {fileID: 11400000, guid: e81fcfd3ea64570409e643b7c0f7e8ac, type: 2}
-  _ringDropper: {fileID: 114568983300056219, guid: 1ea83fb9082b63545a8adcaec4ee5e69, type: 2}
+  _rings: {fileID: 11400000, guid: 4f7a367705b35474eb4b5c32bb66a6d6, type: 2}
+  _ringDropper: {fileID: 114321499151491149, guid: f0bf0e9cb058e3d42ba66607d3f91873, type: 2}
   _ringDropperOffset: {x: 0, y: 0.5, z: 0}
   _maxRingsDropped: 64

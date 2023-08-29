@@ -9,19 +9,19 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1847578850623123}
+  m_RootGameObject: {fileID: 1924543147250556}
   m_IsPrefabParent: 1
---- !u!1 &1847578850623123
+--- !u!1 &1924543147250556
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4721305903690931}
-  - 114: {fileID: 114473737135932341}
-  - 114: {fileID: 114412122316688317}
-  - 82: {fileID: 82808089174425033}
+  - 4: {fileID: 4589530857583729}
+  - 114: {fileID: 114334594249128970}
+  - 114: {fileID: 114251483938657523}
+  - 82: {fileID: 82795672607549844}
   m_Layer: 0
   m_Name: Pocky Voice
   m_TagString: Untagged
@@ -29,12 +29,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4721305903690931
+--- !u!4 &4589530857583729
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847578850623123}
+  m_GameObject: {fileID: 1924543147250556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -129.18915, y: -13.57971, z: 593.2505}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -42,12 +42,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114473737135932341
+--- !u!114 &114334594249128970
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847578850623123}
+  m_GameObject: {fileID: 1924543147250556}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9bf9366cd39f96ee7e33dd329c7aae89, type: 3}
@@ -63,33 +63,33 @@ MonoBehaviour:
     m_Bits: 0
   _attachStartHeight: 0.1
   _attachDistance: 0.5
---- !u!114 &114412122316688317
+--- !u!114 &114251483938657523
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847578850623123}
+  m_GameObject: {fileID: 1924543147250556}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b511c4a8b05728ea1421d88d40cd8809, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _audioClips:
-  - {fileID: 8300000, guid: 2db8853182b4dcc4dbed0813e673aa70, type: 3}
-  - {fileID: 8300000, guid: 3dcd3a78bbb6b084cb568b7f7d9fbd95, type: 3}
-  - {fileID: 8300000, guid: a7979fa494707364587f86d65c647568, type: 3}
-  - {fileID: 8300000, guid: d6646997a2cc4c4458f26d972ae5d09f, type: 3}
-  - {fileID: 8300000, guid: 04c820b21fad0e840bdb47f959ba42a3, type: 3}
---- !u!82 &82808089174425033
+  - {fileID: 8300000, guid: b12df4cf55f397e4bb66c77a4c09269a, type: 3}
+  - {fileID: 8300000, guid: 4458c7739b2f8694b95b9a7ecfb2826a, type: 3}
+  - {fileID: 8300000, guid: 221a45be530dd914e8889adddaf7c6e5, type: 3}
+  - {fileID: 8300000, guid: 8ecd8b8b6b6aecd45a9fac37764da9f7, type: 3}
+  - {fileID: 8300000, guid: 2999c26754d0a8f49bdc229ea6020e7f, type: 3}
+--- !u!82 &82795672607549844
 AudioSource:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847578850623123}
+  m_GameObject: {fileID: 1924543147250556}
   m_Enabled: 1
-  OutputAudioMixerGroup: {fileID: 24300000, guid: 1c96c597a73ba7744bb2a0ab5d640fbc, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 94d5a10bc6702734588f9546423e3026, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300000, guid: eb883bf00a060be41bfe3a3a6a4cf3e9, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 21556edf8e4435a4586a3e953ad34080, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.75
   m_Pitch: 1

@@ -6,7 +6,7 @@ AudioMixerGroupController:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: UI
-  m_AudioMixer: {fileID: 24100000, guid: c7b840b3a75a75c44b008f8c8038b247, type: 2}
+  m_AudioMixer: {fileID: 24100000, guid: 221481717af0f0143995c0498da0b49d, type: 2}
   m_GroupID: dda0dd28de1ab2d47b3f44906ced99ec
   m_Children: []
   m_Volume: 00000000000000000000000000000000

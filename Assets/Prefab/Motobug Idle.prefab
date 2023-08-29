@@ -9,19 +9,19 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1139240905361275}
+  m_RootGameObject: {fileID: 1769753497889885}
   m_IsPrefabParent: 1
---- !u!1 &1139240905361275
+--- !u!1 &1769753497889885
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4252148831517716}
-  - 114: {fileID: 114166717218289653}
-  - 114: {fileID: 114782736763269700}
-  - 82: {fileID: 82566761482129508}
+  - 4: {fileID: 4945359986384499}
+  - 114: {fileID: 114599275048070446}
+  - 114: {fileID: 114365786997540042}
+  - 82: {fileID: 82290004036879214}
   m_Layer: 0
   m_Name: Motobug Idle
   m_TagString: Untagged
@@ -29,12 +29,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4252148831517716
+--- !u!4 &4945359986384499
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1139240905361275}
+  m_GameObject: {fileID: 1769753497889885}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -129.18915, y: -13.57971, z: 593.2505}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -42,12 +42,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114166717218289653
+--- !u!114 &114599275048070446
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1139240905361275}
+  m_GameObject: {fileID: 1769753497889885}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9bf9366cd39f96ee7e33dd329c7aae89, type: 3}
@@ -63,30 +63,30 @@ MonoBehaviour:
     m_Bits: 0
   _attachStartHeight: 0.1
   _attachDistance: 0.5
---- !u!114 &114782736763269700
+--- !u!114 &114365786997540042
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1139240905361275}
+  m_GameObject: {fileID: 1769753497889885}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b511c4a8b05728ea1421d88d40cd8809, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _audioClips:
-  - {fileID: 8300000, guid: bf520ea740f20804180030ad934418ed, type: 3}
-  - {fileID: 8300000, guid: e00252795368f8243baef704e1554809, type: 3}
---- !u!82 &82566761482129508
+  - {fileID: 8300000, guid: e5f926349df83de4384b10333176d54d, type: 3}
+  - {fileID: 8300000, guid: 5e5743f66d46d924c9046836f6db0361, type: 3}
+--- !u!82 &82290004036879214
 AudioSource:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1139240905361275}
+  m_GameObject: {fileID: 1769753497889885}
   m_Enabled: 1
-  OutputAudioMixerGroup: {fileID: 24300000, guid: 1c96c597a73ba7744bb2a0ab5d640fbc, type: 2}
-  m_audioClip: {fileID: 8300000, guid: bf520ea740f20804180030ad934418ed, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300000, guid: eb883bf00a060be41bfe3a3a6a4cf3e9, type: 2}
+  m_audioClip: {fileID: 8300000, guid: e5f926349df83de4384b10333176d54d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.7
   m_Pitch: 1

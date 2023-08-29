@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Lives
   m_EditorClassIdentifier:
   _displayName: Lives
-  _icon: {fileID: 21300000, guid: 763bff9a321b0ac458ce788270893761, type: 2}
+  _icon: {fileID: 21300000, guid: 44c14c087d32059418c226e7df5457e5, type: 2}
   _sceneObject: {fileID: 0}
   _maximumQuantity: 99
   _value: 0

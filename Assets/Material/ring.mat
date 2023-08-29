@@ -18,7 +18,7 @@ Material:
     - first:
         name: _Cube
       second:
-        m_Texture: {fileID: 8900000, guid: 92112b2cf8fa4e84fadce7257a59dbaf, type: 3}
+        m_Texture: {fileID: 8900000, guid: 1cf01f535d4463f46b78612454fae1e5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
