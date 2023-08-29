@@ -1,0 +1,1091 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1009295391, guid: b981ac5fea65cbf46ab728daad9c9206, type: 3}
+  m_Name: ModToolSettings
+  m_EditorClassIdentifier: 
+  _productName: Sonic Utopia
+  _unityVersion: 2019.4.17f1
+  _supportedPlatforms: 15
+  _supportedContent: 7
+  _logLevel: 3
+  _sharedAssets:
+  - Assets/AnimationClip/Barrier Animation.anim
+  - Assets/AnimationClip/buzzbomber rig_Buzzbomber Fire.anim
+  - Assets/AnimationClip/buzzbomber rig_Buzzbomber Move.anim
+  - Assets/AnimationClip/buzzbomber rig_Buzzbomber Neutral.anim
+  - Assets/AnimationClip/buzzbomber rig_Buzzbomber Search.anim
+  - Assets/AnimationClip/buzzbomber rig_Buzzbomber Wings.anim
+  - Assets/AnimationClip/checkpoint rig_Checkpoint Idle.anim
+  - Assets/AnimationClip/checkpoint rig_Checkpoint Spin.anim
+  - Assets/AnimationClip/crabmeat rig_Crabmeat Fire.anim
+  - Assets/AnimationClip/crabmeat rig_Crabmeat Walk.anim
+  - Assets/AnimationClip/FlickyDance.anim
+  - Assets/AnimationClip/FlickyFly.anim
+  - Assets/AnimationClip/FlickyFreed1.anim
+  - Assets/AnimationClip/FlickyFreed2.anim
+  - Assets/AnimationClip/FlickyNeutral.anim
+  - Assets/AnimationClip/goal rig_Goal Idle.anim
+  - Assets/AnimationClip/goal rig_Goal Spin.anim
+  - Assets/AnimationClip/goal rig_spring.001Action.anim
+  - Assets/AnimationClip/lavender rig_lavender dance.anim
+  - Assets/AnimationClip/lavender rig_lavender neutral.anim
+  - Assets/AnimationClip/motobug rig_Motobug Alarm.anim
+  - Assets/AnimationClip/motobug rig_Motobug Attack.anim
+  - Assets/AnimationClip/motobug rig_Motobug Boost.anim
+  - Assets/AnimationClip/motobug rig_Motobug Move.anim
+  - Assets/AnimationClip/motobug rig_Motobug Neutral.anim
+  - Assets/AnimationClip/motobug rig_Motobug Ready.anim
+  - Assets/AnimationClip/newtron rig_Newtron Fire.anim
+  - Assets/AnimationClip/newtron rig_Newtron Idle.anim
+  - Assets/AnimationClip/newtron rig_Newtron Jump.anim
+  - Assets/AnimationClip/newtron rig_Newtron Neutral.anim
+  - Assets/AnimationClip/newtron rig_Newtron Rocket.anim
+  - Assets/AnimationClip/newtron rig_Newtron Transform.anim
+  - Assets/AnimationClip/PockyBounce.anim
+  - Assets/AnimationClip/PockyFreed1.anim
+  - Assets/AnimationClip/PockyFreed2.anim
+  - Assets/AnimationClip/PockyNeutral.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Air Down.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Air Mid.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Air Up.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Death.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Duck A.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Hurt.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Idle A.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Jog.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Peelout Charge A.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Peelout Charge B.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Peelout.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Roll End.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Roll Start.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Roll.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Run.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Skid 1.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Skid 2 A.anim
+  - Assets/AnimationClip/Sonic Rig_Sonic Skid 2 B.anim
+  - Assets/AnimationClip/Spring Anim.anim
+  - Assets/AnimationClip/Spring Idle.anim
+  - Assets/AnimationClip/sunflower rig_sunflower dance.anim
+  - Assets/AnimationClip/sunflower rig_sunflower neutral.anim
+  - Assets/AnimationClip/title card rig_title enter.anim
+  - Assets/AnimationClip/title card rig_title exit.anim
+  - Assets/AnimationClip/title card rig_title neutral.anim
+  - Assets/AnimatorController/Buzzbomber Controller.controller
+  - Assets/AnimatorController/Crabmeat Controller.controller
+  - Assets/AnimatorController/Motobug Controller.controller
+  - Assets/AnimatorController/Newtron Controller.controller
+  - Assets/AnimatorController/Saturn Sonic Controller.controller
+  - Assets/AnimatorController/Spring Controller.controller
+  - Assets/AnimatorController/Title Card.controller
+  - Assets/AudioClip/airtimer.ogg
+  - Assets/AudioClip/brake power.ogg
+  - Assets/AudioClip/brake.ogg
+  - Assets/AudioClip/bullet blast.ogg
+  - Assets/AudioClip/bullet.ogg
+  - Assets/AudioClip/bust a.ogg
+  - Assets/AudioClip/bust b.ogg
+  - Assets/AudioClip/bust c.ogg
+  - Assets/AudioClip/bust d.ogg
+  - Assets/AudioClip/buzzbomber attack.ogg
+  - Assets/AudioClip/buzzbomber fly.ogg
+  - Assets/AudioClip/checkpoint.ogg
+  - Assets/AudioClip/Clear.ogg
+  - Assets/AudioClip/crabmeat attack a.ogg
+  - Assets/AudioClip/crabmeat attack b.ogg
+  - Assets/AudioClip/crabmeat claw.ogg
+  - Assets/AudioClip/crabmeat idle a.ogg
+  - Assets/AudioClip/crabmeat idle b.ogg
+  - Assets/AudioClip/crabmeat walk.ogg
+  - Assets/AudioClip/damage.ogg
+  - Assets/AudioClip/Drowning.ogg
+  - Assets/AudioClip/flicky a.ogg
+  - Assets/AudioClip/flicky b.ogg
+  - Assets/AudioClip/flicky c.ogg
+  - Assets/AudioClip/flicky d.ogg
+  - Assets/AudioClip/flicky e.ogg
+  - Assets/AudioClip/flicky f.ogg
+  - Assets/AudioClip/flicky g.ogg
+  - Assets/AudioClip/Game Over.ogg
+  - Assets/AudioClip/homing a.ogg
+  - Assets/AudioClip/homing b.ogg
+  - Assets/AudioClip/homing c.ogg
+  - Assets/AudioClip/homing d.ogg
+  - Assets/AudioClip/invincible.ogg
+  - Assets/AudioClip/jump dash.ogg
+  - Assets/AudioClip/jump.ogg
+  - Assets/AudioClip/motobug alarm.ogg
+  - Assets/AudioClip/motobug attack.ogg
+  - Assets/AudioClip/motobug idle a.ogg
+  - Assets/AudioClip/motobug idle b.ogg
+  - Assets/AudioClip/motobug patrol.ogg
+  - Assets/AudioClip/newtron detect.ogg
+  - Assets/AudioClip/newtron idle.ogg
+  - Assets/AudioClip/newtron launch.ogg
+  - Assets/AudioClip/newtron rocket.ogg
+  - Assets/AudioClip/newtron taunt.ogg
+  - Assets/AudioClip/newtron transform.ogg
+  - Assets/AudioClip/os air timer.ogg
+  - Assets/AudioClip/os bubble.ogg
+  - Assets/AudioClip/os death.ogg
+  - Assets/AudioClip/os drown.ogg
+  - Assets/AudioClip/os goal.ogg
+  - Assets/AudioClip/os select.ogg
+  - Assets/AudioClip/os shield.ogg
+  - Assets/AudioClip/os spike.ogg
+  - Assets/AudioClip/Panic in Paradise.ogg
+  - Assets/AudioClip/peelout charge loop.ogg
+  - Assets/AudioClip/peelout charge.ogg
+  - Assets/AudioClip/peelout loop.ogg
+  - Assets/AudioClip/pocky a.ogg
+  - Assets/AudioClip/pocky b.ogg
+  - Assets/AudioClip/pocky c.ogg
+  - Assets/AudioClip/pocky d.ogg
+  - Assets/AudioClip/pocky e.ogg
+  - Assets/AudioClip/ring drop a.ogg
+  - Assets/AudioClip/ring drop b.ogg
+  - Assets/AudioClip/ring drop c.ogg
+  - Assets/AudioClip/ring powerup.ogg
+  - Assets/AudioClip/ring.ogg
+  - Assets/AudioClip/roll start.ogg
+  - Assets/AudioClip/run loop.ogg
+  - Assets/AudioClip/select.ogg
+  - Assets/AudioClip/spin loop air.ogg
+  - Assets/AudioClip/spin loop ground.ogg
+  - Assets/AudioClip/spin.ogg
+  - Assets/AudioClip/spindash charge.ogg
+  - Assets/AudioClip/spindash launch.ogg
+  - Assets/AudioClip/splash.ogg
+  - Assets/AudioClip/spring red.ogg
+  - Assets/AudioClip/spring yellow.ogg
+  - Assets/AudioClip/step a.ogg
+  - Assets/AudioClip/step b.ogg
+  - Assets/AudioClip/step c.ogg
+  - Assets/AudioClip/step d.ogg
+  - Assets/AudioClip/Title.ogg
+  - Assets/AudioClip/waterfall.ogg
+  - Assets/Avatar/BuzzbomberAvatar.asset
+  - Assets/Avatar/CrabmeatAvatar.asset
+  - Assets/Avatar/GHZ Level BAvatar.asset
+  - Assets/Avatar/MotobugAvatar.asset
+  - Assets/Avatar/NewtronAvatar.asset
+  - Assets/Avatar/obj springsAvatar.asset
+  - Assets/Avatar/Sonic v2bAvatar.asset
+  - Assets/Avatar/title cardAvatar.asset
+  - Assets/Cubemap/chrome dim gen.png
+  - Assets/Cubemap/chrome dim ring.png
+  - Assets/Cubemap/gemref.png
+  - Assets/Flare/50mmZoom.flare
+  - Assets/LightingDataAsset/Main Menu.asset
+  - Assets/LightingDataAsset/Sandbox.asset
+  - Assets/Material/animals.mat
+  - Assets/Material/badniks.mat
+  - Assets/Material/badniks_alt.mat
+  - Assets/Material/barrier.mat
+  - Assets/Material/blocks__grass_floor_png.mat
+  - Assets/Material/bridge dif.mat
+  - Assets/Material/bubble.mat
+  - Assets/Material/bulletsph.mat
+  - Assets/Material/checkpoint 1.mat
+  - Assets/Material/checkpoint_lamp_blue.mat
+  - Assets/Material/checkpoint_lamp_red.mat
+  - Assets/Material/checkpoint_lamp_yellow.mat
+  - Assets/Material/cliffs.mat
+  - Assets/Material/Default-Material.mat
+  - Assets/Material/energyfield.mat
+  - Assets/Material/explosion.mat
+  - Assets/Material/firesmall.mat
+  - Assets/Material/flowerpatch small.mat
+  - Assets/Material/gemcave.mat
+  - Assets/Material/GHZ card.mat
+  - Assets/Material/GHZ Skybox.mat
+  - Assets/Material/glow.mat
+  - Assets/Material/goal panel.mat
+  - Assets/Material/grassedge.mat
+  - Assets/Material/grassplatform.mat
+  - Assets/Material/groundwall.mat
+  - Assets/Material/hot bright.mat
+  - Assets/Material/labyrinth tiles dif.mat
+  - Assets/Material/labyrinth.mat
+  - Assets/Material/lightrocks.mat
+  - Assets/Material/logo.mat
+  - Assets/Material/monitor icon barrier.mat
+  - Assets/Material/monitor icon invincible.mat
+  - Assets/Material/monitor icon life.mat
+  - Assets/Material/monitor icon rings.mat
+  - Assets/Material/monitor icon shoes.mat
+  - Assets/Material/monitor.mat
+  - Assets/Material/mountains.mat
+  - Assets/Material/objects.mat
+  - Assets/Material/objects_0.mat
+  - Assets/Material/plants.mat
+  - Assets/Material/props cutout dif.mat
+  - Assets/Material/ring.mat
+  - Assets/Material/smoke1.mat
+  - Assets/Material/Sonic v2 tex shoes.mat
+  - Assets/Material/Sonic v2 tex.mat
+  - Assets/Material/spark soft b.mat
+  - Assets/Material/spark soft.mat
+  - Assets/Material/spark.mat
+  - Assets/Material/sparkb.mat
+  - Assets/Material/sparkle1.mat
+  - Assets/Material/sparkle2.mat
+  - Assets/Material/speck.mat
+  - Assets/Material/spring red.mat
+  - Assets/Material/spring yellow.mat
+  - Assets/Material/water sparkle.mat
+  - Assets/Material/water.mat
+  - Assets/Material/water2.mat
+  - Assets/Material/waterfall.mat
+  - Assets/Material/watersplash.mat
+  - Assets/Material/wcol.mat
+  - Assets/Mesh/barrier.asset
+  - Assets/Mesh/blocks.asset
+  - Assets/Mesh/bridgelog_LOD0.asset
+  - Assets/Mesh/bridgelog_LOD1.asset
+  - Assets/Mesh/buzzbomber.asset
+  - Assets/Mesh/checkpoint base.asset
+  - Assets/Mesh/checkpoint lamp.asset
+  - Assets/Mesh/Circle.asset
+  - Assets/Mesh/cliffs.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 10.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 11.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 12.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 13.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 14.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 15.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 16.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 17.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 18.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 19.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 2.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 20.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 21.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 22.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 23.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 24.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 25.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 26.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 27.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 28.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 29.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 3.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 30.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 31.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 32.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 33.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 34.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 35.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 36.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 37.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 38.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 39.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 4.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 40.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 41.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 42.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 43.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 44.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 45.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 46.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 47.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 48.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 49.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 5.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 50.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 51.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 52.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 53.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 54.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 55.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 56.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 57.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 58.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 59.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 6.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 60.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 61.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 62.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 63.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 64.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 65.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 66.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 67.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 68.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 69.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 7.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 70.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 71.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 72.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 73.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 74.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 75.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 76.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 77.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 78.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 79.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 8.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 80.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 81.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 82.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 83.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 84.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 85.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 86.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 87.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 88.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 89.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 9.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 90.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 91.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 92.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 93.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 94.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 95.asset
+  - Assets/Mesh/Combined Mesh (root_ scene) 96.asset
+  - Assets/Mesh/Combined Mesh (root_ scene).asset
+  - Assets/Mesh/crabmeat.asset
+  - Assets/Mesh/default.asset
+  - Assets/Mesh/default_0.asset
+  - Assets/Mesh/default_1.asset
+  - Assets/Mesh/default_2.asset
+  - Assets/Mesh/flicky.asset
+  - Assets/Mesh/flowerpatch_small.asset
+  - Assets/Mesh/fplat.asset
+  - Assets/Mesh/fplattop.asset
+  - Assets/Mesh/gemcave.asset
+  - Assets/Mesh/GHZ card.asset
+  - Assets/Mesh/goalpost.asset
+  - Assets/Mesh/grass_MeshPart0.asset
+  - Assets/Mesh/grass_MeshPart1.asset
+  - Assets/Mesh/grass_MeshPart2.asset
+  - Assets/Mesh/grass_MeshPart3.asset
+  - Assets/Mesh/labyrinth tile 1.551.asset
+  - Assets/Mesh/labyrinth tile 1.554.asset
+  - Assets/Mesh/labyrinth tile 1.557.asset
+  - Assets/Mesh/labyrinth vine.037.asset
+  - Assets/Mesh/labyrinth.asset
+  - Assets/Mesh/lakebed.asset
+  - Assets/Mesh/lavender_LOD0.asset
+  - Assets/Mesh/lavender_LOD1.asset
+  - Assets/Mesh/lavender_LOD2.asset
+  - Assets/Mesh/loopdeloop.asset
+  - Assets/Mesh/loopdeloop_001.asset
+  - Assets/Mesh/loopdeloop_002.asset
+  - Assets/Mesh/loopdeloop_003.asset
+  - Assets/Mesh/loopdeloopdrop.asset
+  - Assets/Mesh/loopdeloopdrop_001.asset
+  - Assets/Mesh/monitor box.asset
+  - Assets/Mesh/monitor broken.asset
+  - Assets/Mesh/monitor screen.asset
+  - Assets/Mesh/motobug.asset
+  - Assets/Mesh/mountainL1.asset
+  - Assets/Mesh/mountainL1alt.asset
+  - Assets/Mesh/mountainL2.asset
+  - Assets/Mesh/mountainL2alt.asset
+  - Assets/Mesh/mountainS1.asset
+  - Assets/Mesh/mountainS2.asset
+  - Assets/Mesh/newtron.asset
+  - Assets/Mesh/palm_LOD0.asset
+  - Assets/Mesh/palm_LOD1.asset
+  - Assets/Mesh/palm_LOD2.asset
+  - Assets/Mesh/Plane.002.asset
+  - Assets/Mesh/Plane.asset
+  - Assets/Mesh/pocky.asset
+  - Assets/Mesh/purplerock1_LOD0.asset
+  - Assets/Mesh/purplerock1_LOD1.asset
+  - Assets/Mesh/purplerock2_LOD0.asset
+  - Assets/Mesh/purplerock2_LOD1.asset
+  - Assets/Mesh/ring.asset
+  - Assets/Mesh/shrublarge_LOD0.asset
+  - Assets/Mesh/shrublarge_LOD1.asset
+  - Assets/Mesh/shrubsmall_LOD0.asset
+  - Assets/Mesh/shrubsmall_LOD1.asset
+  - Assets/Mesh/Sonic.asset
+  - Assets/Mesh/Sonic_0.asset
+  - Assets/Mesh/SonicFSpin.asset
+  - Assets/Mesh/SonicNFeet.asset
+  - Assets/Mesh/SonicPFeet.asset
+  - Assets/Mesh/SonicRFeet.asset
+  - Assets/Mesh/Sphere.asset
+  - Assets/Mesh/spikes.asset
+  - Assets/Mesh/spring.asset
+  - Assets/Mesh/Star.016.asset
+  - Assets/Mesh/sunflower_LOD0.asset
+  - Assets/Mesh/sunflower_LOD1.asset
+  - Assets/Mesh/sunflower_LOD2.asset
+  - Assets/Mesh/terrainSides_MeshPart0.asset
+  - Assets/Mesh/terrainSides_MeshPart1.asset
+  - Assets/Mesh/terrainTop_MeshPart0.asset
+  - Assets/Mesh/terrainTop_MeshPart1.asset
+  - Assets/Mesh/Text.asset
+  - Assets/Mesh/trunk_LOD0.asset
+  - Assets/Mesh/trunk_LOD1.asset
+  - Assets/Mesh/trunk_LOD2.asset
+  - Assets/Mesh/water.asset
+  - Assets/Mesh/water_col.asset
+  - Assets/Mesh/water_col_001.asset
+  - Assets/Mesh/water_col_Cube.000.asset
+  - Assets/Mesh/water_col_Cube.001.asset
+  - Assets/Mesh/water_col_Cube.002.asset
+  - Assets/Mesh/water_col_Cube.003.asset
+  - Assets/Mesh/water_col_Cube.004.asset
+  - Assets/Mesh/water_col_Cube.005.asset
+  - Assets/Mesh/water_col_Cube.006.asset
+  - Assets/Mesh/water_col_Cube.007.asset
+  - Assets/Mesh/water_col_Cube.008.asset
+  - Assets/Mesh/water_col_Cube.009.asset
+  - Assets/Mesh/water_col_Cube.010.asset
+  - Assets/Mesh/water_col_Cube.011.asset
+  - Assets/Mesh/water_col_Cube.012.asset
+  - Assets/Mesh/water_col_Cube.013.asset
+  - Assets/Mesh/water_col_Cube.014.asset
+  - Assets/Mesh/water_col_Cube.015.asset
+  - Assets/Mesh/water_col_Cube.016.asset
+  - Assets/Mesh/water_col_Cube.017.asset
+  - Assets/Mesh/water_col_Cube.018.asset
+  - Assets/Mesh/water_col_Cube.019.asset
+  - Assets/Mesh/water_col_Cube.020.asset
+  - Assets/Mesh/water_col_Cube.021.asset
+  - Assets/Mesh/water_col_Cube.022.asset
+  - Assets/Mesh/water_col_Cube.023.asset
+  - Assets/Mesh/water_col_Cube.024.asset
+  - Assets/Mesh/water_col_Cube.025.asset
+  - Assets/Mesh/water_col_Cube.026.asset
+  - Assets/Mesh/water_col_Cube.027.asset
+  - Assets/Mesh/water_col_Cube.028.asset
+  - Assets/Mesh/water_col_Cube.029.asset
+  - Assets/Mesh/water_col_Cube.030.asset
+  - Assets/Mesh/water_col_Cube.031.asset
+  - Assets/Mesh/water_col_Cube.032.asset
+  - Assets/Mesh/water_col_Cube.033.asset
+  - Assets/Mesh/water_col_Cube.034.asset
+  - Assets/Mesh/water_col_Cube.035.asset
+  - Assets/Mesh/water_col_Cube.036.asset
+  - Assets/Mesh/water_col_Cube.037.asset
+  - Assets/Mesh/water_col_Cube.038.asset
+  - Assets/Mesh/water_col_Cube.039.asset
+  - Assets/Mesh/water_col_Cube.040.asset
+  - Assets/Mesh/water_col_Cube.041.asset
+  - Assets/Mesh/water_col_Cube.042.asset
+  - Assets/Mesh/water_col_Cube.043.asset
+  - Assets/Mesh/water_col_Cube.044.asset
+  - Assets/Mesh/water_col_Cube.045.asset
+  - Assets/Mesh/water_col_Cube.046.asset
+  - Assets/Mesh/water_col_Cube.047.asset
+  - Assets/Mesh/water_col_Cube.048.asset
+  - Assets/Mesh/waterfall.asset
+  - Assets/MonoBehaviour/Barrier.asset
+  - Assets/MonoBehaviour/Flinch.asset
+  - Assets/MonoBehaviour/FlinchEffect.asset
+  - Assets/MonoBehaviour/Homing Attack.asset
+  - Assets/MonoBehaviour/Invincible.asset
+  - Assets/MonoBehaviour/Lives.asset
+  - Assets/MonoBehaviour/Physical Damage.asset
+  - Assets/MonoBehaviour/Ring Defense.asset
+  - Assets/MonoBehaviour/Rings.asset
+  - Assets/MonoBehaviour/Rolling Invulnerability.asset
+  - Assets/MonoBehaviour/SpeedShoes.asset
+  - Assets/MonoBehaviour/Spindash.asset
+  - Assets/MonoBehaviour/Super Peelout.asset
+  - Assets/MonoBehaviour/Water Substance.asset
+  - Assets/PhysicMaterial/Character.physicMaterial
+  - Assets/PhysicMaterial/Ring Material.physicMaterial
+  - Assets/Plugins/Assembly-CSharp-firstpass/AlphaButtonClickMask.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/EventSystemChecker.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/ForcedReset.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/Properties/AssemblyInfo.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/CrossPlatformInput/AxisTouchButton.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/CrossPlatformInput/ButtonHandler.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/CrossPlatformInput/CrossPlatformInputManager.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/CrossPlatformInput/InputAxisScrollbar.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/CrossPlatformInput/Joystick.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/CrossPlatformInput/MobileControlRig.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/CrossPlatformInput/PlatformSpecific/MobileInput.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/CrossPlatformInput/PlatformSpecific/StandaloneInput.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/CrossPlatformInput/TiltInput.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/CrossPlatformInput/TouchPad.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/CrossPlatformInput/VirtualInput.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/AAMode.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/Antialiasing.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/Bloom.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/BloomAndFlares.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/BloomOptimized.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/BloomScreenBlendMode.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/Blur.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/BlurOptimized.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/CameraMotionBlur.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/ColorCorrectionCurves.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/ColorCorrectionLookup.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/ColorCorrectionRamp.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/ContrastEnhance.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/ContrastStretch.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/CreaseShading.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/DepthOfField.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/DepthOfFieldDeprecated.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/EdgeDetection.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/Fisheye.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/GlobalFog.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/Grayscale.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/HDRBloomMode.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/ImageEffectBase.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/ImageEffects.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/LensflareStyle34.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/MotionBlur.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/NoiseAndGrain.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/NoiseAndScratches.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/PostEffectsBase.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/PostEffectsHelper.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/Quads.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/ScreenOverlay.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/ScreenSpaceAmbientObscurance.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/ScreenSpaceAmbientOcclusion.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/SepiaTone.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/SunShafts.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/TiltShift.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/Tonemapping.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/Triangles.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/TweakMode34.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/Twirl.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/VignetteAndChromaticAberration.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/ImageEffects/Vortex.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/ActivateTrigger.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/AutoMobileShaderSwitch.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/AutoMoveAndRotate.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/CameraRefocus.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/CurveControlledBob.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/DragRigidbody.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/DynamicShadowSettings.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/FollowTarget.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/FOVKick.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/FPSCounter.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/LerpControlledBob.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/ObjectResetter.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/ParticleSystemDestroyer.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/PlatformSpecificContent.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/SimpleActivatorMenu.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/SimpleMouseRotator.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/SmoothFollow.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/TimedObjectActivator.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/TimedObjectDestructor.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/WaypointCircuit.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Utility/WaypointProgressTracker.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Water/Displace.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Water/GerstnerDisplace.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Water/MeshContainer.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Water/PlanarReflection.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Water/SpecularLighting.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Water/Water.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Water/WaterBase.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Water/WaterBasic.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Water/WaterQuality.cs
+  - Assets/Plugins/Assembly-CSharp-firstpass/UnityStandardAssets/Water/WaterTile.cs
+  - Assets/Plugins/DiscordGameSDK/ActivityManager.cs
+  - Assets/Plugins/DiscordGameSDK/Constants.cs
+  - Assets/Plugins/DiscordGameSDK/Core.cs
+  - Assets/Plugins/DiscordGameSDK/ImageManager.cs
+  - Assets/Plugins/DiscordGameSDK/LobbyManager.cs
+  - Assets/Plugins/DiscordGameSDK/StorageManager.cs
+  - Assets/Plugins/DiscordGameSDK/StoreManager.cs
+  - Assets/Plugins/x86/discord_game_sdk.dll
+  - Assets/Plugins/x86/discord_game_sdk.dll.lib
+  - Assets/Plugins/x86_64/discord_game_sdk.bundle
+  - Assets/Plugins/x86_64/discord_game_sdk.dll
+  - Assets/Plugins/x86_64/discord_game_sdk.dll.lib
+  - Assets/Plugins/x86_64/discord_game_sdk.dylib
+  - Assets/Plugins/x86_64/discord_game_sdk.so
+  - Assets/Prefab/Badnik Explosion.prefab
+  - Assets/Prefab/Barrier Effect.prefab
+  - Assets/Prefab/Breath Sound.prefab
+  - Assets/Prefab/Bubble.prefab
+  - Assets/Prefab/Bullet Explosion.prefab
+  - Assets/Prefab/Bullet Leon.prefab
+  - Assets/Prefab/Bullet.prefab
+  - Assets/Prefab/Buzzbomber Attack.prefab
+  - Assets/Prefab/Charge Dust.prefab
+  - Assets/Prefab/Checkpoint.prefab
+  - Assets/Prefab/Crabmeat Attack A.prefab
+  - Assets/Prefab/Crabmeat Attack B.prefab
+  - Assets/Prefab/Crabmeat Claw.prefab
+  - Assets/Prefab/Crabmeat Idle.prefab
+  - Assets/Prefab/Crabmeat Walk.prefab
+  - Assets/Prefab/Effect - Death.prefab
+  - Assets/Prefab/Effect - Drown.prefab
+  - Assets/Prefab/Effect - Fire.prefab
+  - Assets/Prefab/Effect - Footstep.prefab
+  - Assets/Prefab/Effect - Footsteps Peelout.prefab
+  - Assets/Prefab/Effect - Footsteps Running.prefab
+  - Assets/Prefab/Effect - Homing Attack.prefab
+  - Assets/Prefab/Effect - Jump Dash.prefab
+  - Assets/Prefab/Effect - Jump.prefab
+  - Assets/Prefab/Effect - Pain Noise.prefab
+  - Assets/Prefab/Effect - Peelout Charge Loop.prefab
+  - Assets/Prefab/Effect - Peelout Charge.prefab
+  - Assets/Prefab/Effect - Roll Air.prefab
+  - Assets/Prefab/Effect - Run Dust.prefab
+  - Assets/Prefab/Effect - Skid Power.prefab
+  - Assets/Prefab/Effect - Skid.prefab
+  - Assets/Prefab/Effect - Spin Loop Air.prefab
+  - Assets/Prefab/Effect - Spin Loop Ground.prefab
+  - Assets/Prefab/Effect - Spin.prefab
+  - Assets/Prefab/Effect - Spindash Charge.prefab
+  - Assets/Prefab/Effect - Spindash.prefab
+  - Assets/Prefab/Explosion Monitor Rings.prefab
+  - Assets/Prefab/Explosion.prefab
+  - Assets/Prefab/Flicky Voice.prefab
+  - Assets/Prefab/Flicky.prefab
+  - Assets/Prefab/Floating Platform.prefab
+  - Assets/Prefab/Goal.prefab
+  - Assets/Prefab/Invincibility Effect.prefab
+  - Assets/Prefab/Lavender p.prefab
+  - Assets/Prefab/Light Rock 1 p.prefab
+  - Assets/Prefab/Light Rock 2 p.prefab
+  - Assets/Prefab/Monitor Barrier.prefab
+  - Assets/Prefab/Monitor Invincibility.prefab
+  - Assets/Prefab/Monitor Lives.prefab
+  - Assets/Prefab/Monitor Rings.prefab
+  - Assets/Prefab/Monitor Selection.prefab
+  - Assets/Prefab/Monitor Speed Shoes.prefab
+  - Assets/Prefab/Motobug Alarm.prefab
+  - Assets/Prefab/Motobug Attack.prefab
+  - Assets/Prefab/Motobug Idle.prefab
+  - Assets/Prefab/Motobug Patrol.prefab
+  - Assets/Prefab/MountainL1 p.prefab
+  - Assets/Prefab/MountainL1alt p.prefab
+  - Assets/Prefab/MountainL2 p.prefab
+  - Assets/Prefab/MountainL2alt p.prefab
+  - Assets/Prefab/MountainS1 p.prefab
+  - Assets/Prefab/MountainS2 p.prefab
+  - Assets/Prefab/Newtron Alarm.prefab
+  - Assets/Prefab/Newtron Idle.prefab
+  - Assets/Prefab/Newtron Launch.prefab
+  - Assets/Prefab/Newtron Rocket Smoke.prefab
+  - Assets/Prefab/Newtron Rocket.prefab
+  - Assets/Prefab/Newtron Taunt.prefab
+  - Assets/Prefab/Newtron Transform.prefab
+  - Assets/Prefab/Palmtree p.prefab
+  - Assets/Prefab/Pocky Voice.prefab
+  - Assets/Prefab/Pocky.prefab
+  - Assets/Prefab/Ring Collect.prefab
+  - Assets/Prefab/Ring Drop A.prefab
+  - Assets/Prefab/Ring Drop B.prefab
+  - Assets/Prefab/Ring Drop C.prefab
+  - Assets/Prefab/Ring Dropper.prefab
+  - Assets/Prefab/Ring.prefab
+  - Assets/Prefab/Run Dust Big.prefab
+  - Assets/Prefab/Shrub Large p.prefab
+  - Assets/Prefab/Shrub Small p.prefab
+  - Assets/Prefab/Spike Effect.prefab
+  - Assets/Prefab/Spikes.prefab
+  - Assets/Prefab/Splash.prefab
+  - Assets/Prefab/Spring.prefab
+  - Assets/Prefab/Sunflower p.prefab
+  - Assets/Prefab/Trunk p.prefab
+  - Assets/Resources/Bridge Log.prefab
+  - Assets/Resources/ClothVectors.shader
+  - Assets/Resources/Combine.shader
+  - Assets/Resources/Debug.shader
+  - Assets/Resources/Depth.shader
+  - Assets/Resources/Dilation.shader
+  - Assets/Resources/effect-icon.png
+  - Assets/Resources/GPUSkinDeform.shader
+  - Assets/Resources/MotionBlurShared.asset
+  - Assets/Resources/MotionBlurSM2.shader
+  - Assets/Resources/MotionBlurSM3.shader
+  - Assets/Resources/object-icon.png
+  - Assets/Resources/pctk/effects/trails/Banner.png
+  - Assets/Resources/pctk/effects/trails/BannerDocument.png
+  - Assets/Resources/pctk/effects/trails/BannerDocumentSrc.png
+  - Assets/Resources/pctk/effects/trails/BannerSrc.png
+  - Assets/Resources/pctk/generic/DarkBackground.asset
+  - Assets/Resources/pctk/generic/DarkBackground.png
+  - Assets/Resources/pctk/generic/JustBorder.asset
+  - Assets/Resources/pctk/generic/JustBorder.png
+  - Assets/Resources/pctk/generic/LightBackground.asset
+  - Assets/Resources/pctk/generic/LightBackground.png
+  - Assets/Resources/pctk/generic/LightBorder.asset
+  - Assets/Resources/pctk/generic/LightBorder.png
+  - Assets/Resources/pctk/generic/NoBackgroundDarkSideBorder.asset
+  - Assets/Resources/pctk/generic/NoBackgroundDarkSideBorder.png
+  - Assets/Resources/ReprojectionVectors.shader
+  - Assets/Resources/Shared.asset
+  - Assets/Resources/SkinnedVectors.shader
+  - Assets/Resources/SolidVectors.shader
+  - Assets/Resources/UltimateBloomBokehMisc.shader
+  - Assets/Resources/UltimateBloomCombine.shader
+  - Assets/Resources/UltimateBloomCombineCore.asset
+  - Assets/Resources/UltimateBloomCombineFlareDirt.shader
+  - Assets/Resources/UltimateBloomMixer.shader
+  - Assets/Resources/UltimateBloomShader.shader
+  - Assets/Resources/UltimateBokehTexture.shader
+  - Assets/Resources/UltimateBrightpassCore.asset
+  - Assets/Resources/UltimateBrightpassMask.shader
+  - Assets/Resources/UltimateFlareCore.asset
+  - Assets/Resources/UltimateFlareDouble.shader
+  - Assets/Resources/UltimateFlareMask.shader
+  - Assets/Resources/UltimateFlareMeshShader.shader
+  - Assets/Resources/UltimateFlareSingle.shader
+  - Assets/Resources/UltimateSampling.shader
+  - Assets/Scripts/AmplifyMotion/Properties/AssemblyInfo.cs
+  - Assets/Scripts/Assembly-CSharp/Ability.cs
+  - Assets/Scripts/Assembly-CSharp/AbilityBehaviour.cs
+  - Assets/Scripts/Assembly-CSharp/AbilityEffect.cs
+  - Assets/Scripts/Assembly-CSharp/AbilityMisc.cs
+  - Assets/Scripts/Assembly-CSharp/AbilityObject.cs
+  - Assets/Scripts/Assembly-CSharp/AbilityRequirementType.cs
+  - Assets/Scripts/Assembly-CSharp/Actor.cs
+  - Assets/Scripts/Assembly-CSharp/ActorAbilityComponent.cs
+  - Assets/Scripts/Assembly-CSharp/ActorAbilityEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/ActorAbilityEventHandler.cs
+  - Assets/Scripts/Assembly-CSharp/ActorChangedEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/ActorComponent.cs
+  - Assets/Scripts/Assembly-CSharp/ActorDeathEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/ActorEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/ActorEventHandler.cs
+  - Assets/Scripts/Assembly-CSharp/ActorGenericEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/ActorImpactEffectEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/ActorImpactEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/ActorInventory.cs
+  - Assets/Scripts/Assembly-CSharp/ActorPhysics.cs
+  - Assets/Scripts/Assembly-CSharp/ActorPortalEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/ActorPortalEventHandler.cs
+  - Assets/Scripts/Assembly-CSharp/ActorStatistics.cs
+  - Assets/Scripts/Assembly-CSharp/ActorTickEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/AIController.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotion/ClothState.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotion/MotionState.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotion/ObjectType.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotion/ParticleState.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotion/Quality.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotion/SkinnedState.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotion/SolidState.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotion/VersionInfo.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotion/WorkerThreadPool.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotionCamera.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotionEffect.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotionEffectBase.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotionObject.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotionObjectBase.cs
+  - Assets/Scripts/Assembly-CSharp/AmplifyMotionPostProcess.cs
+  - Assets/Scripts/Assembly-CSharp/AudioSource3DEffects.cs
+  - Assets/Scripts/Assembly-CSharp/AvatarStateIndex.cs
+  - Assets/Scripts/Assembly-CSharp/BigDust.cs
+  - Assets/Scripts/Assembly-CSharp/Billboard.cs
+  - Assets/Scripts/Assembly-CSharp/BillboardGameObject.cs
+  - Assets/Scripts/Assembly-CSharp/BokehRenderer.cs
+  - Assets/Scripts/Assembly-CSharp/Breath.cs
+  - Assets/Scripts/Assembly-CSharp/Bridge.cs
+  - Assets/Scripts/Assembly-CSharp/CameraController.cs
+  - Assets/Scripts/Assembly-CSharp/CameraState.cs
+  - Assets/Scripts/Assembly-CSharp/CameraStateThirdPerson.cs
+  - Assets/Scripts/Assembly-CSharp/Character.cs
+  - Assets/Scripts/Assembly-CSharp/CharacterAnimatorEffectTrigger.cs
+  - Assets/Scripts/Assembly-CSharp/CharacterAvatar.cs
+  - Assets/Scripts/Assembly-CSharp/CharacterMotor.cs
+  - Assets/Scripts/Assembly-CSharp/CharacterMotorEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/CharacterMotorEventHandler.cs
+  - Assets/Scripts/Assembly-CSharp/CharacterState.cs
+  - Assets/Scripts/Assembly-CSharp/CharacterStateDead.cs
+  - Assets/Scripts/Assembly-CSharp/CharacterStateDefault.cs
+  - Assets/Scripts/Assembly-CSharp/CharacterStateFly.cs
+  - Assets/Scripts/Assembly-CSharp/CharacterStateSelection.cs
+  - Assets/Scripts/Assembly-CSharp/CharacterStateSwim.cs
+  - Assets/Scripts/Assembly-CSharp/CheckpointColorHandler.cs
+  - Assets/Scripts/Assembly-CSharp/Context.cs
+  - Assets/Scripts/Assembly-CSharp/ContextChanged.cs
+  - Assets/Scripts/Assembly-CSharp/ContextDeath.cs
+  - Assets/Scripts/Assembly-CSharp/ContextDespawn.cs
+  - Assets/Scripts/Assembly-CSharp/ContextGeneric.cs
+  - Assets/Scripts/Assembly-CSharp/ContextImpact.cs
+  - Assets/Scripts/Assembly-CSharp/ContextImpactApply.cs
+  - Assets/Scripts/Assembly-CSharp/ContextImpactEffect.cs
+  - Assets/Scripts/Assembly-CSharp/ContextImpactEffectApply.cs
+  - Assets/Scripts/Assembly-CSharp/ContextImpactEffectIncoming.cs
+  - Assets/Scripts/Assembly-CSharp/ContextImpactHit.cs
+  - Assets/Scripts/Assembly-CSharp/ContextImpactIncoming.cs
+  - Assets/Scripts/Assembly-CSharp/ContextRespawn.cs
+  - Assets/Scripts/Assembly-CSharp/ContextTick.cs
+  - Assets/Scripts/Assembly-CSharp/Controller.cs
+  - Assets/Scripts/Assembly-CSharp/Cooldown.cs
+  - Assets/Scripts/Assembly-CSharp/CooldownExpiredEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/CooldownExpiredEventHandler.cs
+  - Assets/Scripts/Assembly-CSharp/Currency.cs
+  - Assets/Scripts/Assembly-CSharp/DeathType.cs
+  - Assets/Scripts/Assembly-CSharp/DefaultDeath.cs
+  - Assets/Scripts/Assembly-CSharp/DefaultMotionData.cs
+  - Assets/Scripts/Assembly-CSharp/DeluxeFilmicCurve.cs
+  - Assets/Scripts/Assembly-CSharp/DreamFramework.cs
+  - Assets/Scripts/Assembly-CSharp/DreamPhysics.cs
+  - Assets/Scripts/Assembly-CSharp/Drown.cs
+  - Assets/Scripts/Assembly-CSharp/DrowningSFX.cs
+  - Assets/Scripts/Assembly-CSharp/Element.cs
+  - Assets/Scripts/Assembly-CSharp/EnemyBehaviour.cs
+  - Assets/Scripts/Assembly-CSharp/Equipment.cs
+  - Assets/Scripts/Assembly-CSharp/FloatingPlatforms.cs
+  - Assets/Scripts/Assembly-CSharp/FluidVolume.cs
+  - Assets/Scripts/Assembly-CSharp/FlyMotionData.cs
+  - Assets/Scripts/Assembly-CSharp/FogDensity.cs
+  - Assets/Scripts/Assembly-CSharp/GameMode.cs
+  - Assets/Scripts/Assembly-CSharp/GravityData.cs
+  - Assets/Scripts/Assembly-CSharp/GravityEntry.cs
+  - Assets/Scripts/Assembly-CSharp/GravityField.cs
+  - Assets/Scripts/Assembly-CSharp/GravityFieldType.cs
+  - Assets/Scripts/Assembly-CSharp/GravityInfo.cs
+  - Assets/Scripts/Assembly-CSharp/GroundData.cs
+  - Assets/Scripts/Assembly-CSharp/Health.cs
+  - Assets/Scripts/Assembly-CSharp/Impactable.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactApplicationData.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactEffect.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactEffectApplicationData.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactEffectBehaviour.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactEffectExpiredEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactEffectExpiredEventHandler.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactEffectObject.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactEffectPersistent.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactEffects/Damage.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactEffects/Death.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactEffectSetupData.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactGameObjectEntry.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactResult.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactSetupData.cs
+  - Assets/Scripts/Assembly-CSharp/ImpactType.cs
+  - Assets/Scripts/Assembly-CSharp/InventoryItemEntry.cs
+  - Assets/Scripts/Assembly-CSharp/Item.cs
+  - Assets/Scripts/Assembly-CSharp/ItemDatabase.cs
+  - Assets/Scripts/Assembly-CSharp/ItemProperty.cs
+  - Assets/Scripts/Assembly-CSharp/ItemQuality.cs
+  - Assets/Scripts/Assembly-CSharp/ItemQualityDatabase.cs
+  - Assets/Scripts/Assembly-CSharp/ItemRequirement.cs
+  - Assets/Scripts/Assembly-CSharp/ModifierEffect.cs
+  - Assets/Scripts/Assembly-CSharp/MovingSpikes.cs
+  - Assets/Scripts/Assembly-CSharp/ObjectPlacer.cs
+  - Assets/Scripts/Assembly-CSharp/ObjectPlacerEntry.cs
+  - Assets/Scripts/Assembly-CSharp/Pawn.cs
+  - Assets/Scripts/Assembly-CSharp/PawnPossessedEventArgs.cs
+  - Assets/Scripts/Assembly-CSharp/PawnPossessedEventHandler.cs
+  - Assets/Scripts/Assembly-CSharp/PhysicsSubstance.cs
+  - Assets/Scripts/Assembly-CSharp/PhysicsSubstanceType.cs
+  - Assets/Scripts/Assembly-CSharp/PhysicsVolume.cs
+  - Assets/Scripts/Assembly-CSharp/PhysicsVolumeData.cs
+  - Assets/Scripts/Assembly-CSharp/PhysicsVolumeEntry.cs
+  - Assets/Scripts/Assembly-CSharp/PhysicsVolumeInfo.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Effects/Trails/PCTrail.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Effects/Trails/PCTrailPoint.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Effects/Trails/PCTrailRendererData.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Effects/Trails/SmokePlume.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Effects/Trails/SmokeTrail.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Effects/Trails/SmokeTrailPoint.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Effects/Trails/SmoothTrail.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Effects/Trails/Trail.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Effects/Trails/TrailRenderer_Base.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Generic/VersionInformation.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Utillities/CircularBuffer.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Utillities/GizmosExtra.cs
+  - Assets/Scripts/Assembly-CSharp/PigeonCoopToolkit/Utillities/Range.cs
+  - Assets/Scripts/Assembly-CSharp/Portal.cs
+  - Assets/Scripts/Assembly-CSharp/PortalData.cs
+  - Assets/Scripts/Assembly-CSharp/PortalDataEntry.cs
+  - Assets/Scripts/Assembly-CSharp/Projectile.cs
+  - Assets/Scripts/Assembly-CSharp/Properties/AssemblyInfo.cs
+  - Assets/Scripts/Assembly-CSharp/RandomAudioClip.cs
+  - Assets/Scripts/Assembly-CSharp/SceneItem.cs
+  - Assets/Scripts/Assembly-CSharp/ScriptableObjectDatabase.cs
+  - Assets/Scripts/Assembly-CSharp/SmallAnimal.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Badnik.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/BadnikPatrolController.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/BadnikProjectile.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Barrier.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Bubble.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/BubbleSpawner.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Buzzbomber.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/BuzzbomberPatrolController.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/CharacterAbilityInput.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/CharacterStateDamage.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/CharacterStatePeelout.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/CharacterStateRoll.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Checkpoint.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/CollisionEffect.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/ContextCheckpointActivated.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/ContextGoal.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Crabmeat.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/CrabmeatPatrolController.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/CullingHandler.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/CullingObject.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Explosion.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Flinch.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/FlinchEffect.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/GameModeTravel.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/GameplayHandler.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/GoalObject.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/GoalTriggeredArgs.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/HomingAttack.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/HomingAttackTarget.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Invincible.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Invulnerable.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/ItemDisplayPanel.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/MainMenu.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/MenuOptions.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/MenuPause.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Monitor.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Motobug.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/MotobugPatrolController.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Newtron.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/NewtronPatrolController.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Peelout.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/PlayerPref.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/RingCollisionEffects.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/RingDefense.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/RingDropper.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/RingDropperThresholdEffect.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/SceneHandler.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/SceneRing.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/SceneRingHandler.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/SelectMonitorPrefab.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/SpecialEffectPhysicalContext.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Spikes.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/Spindash.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/SpinJump.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/TouchDamage.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/UserCharacterControls.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/UserCharacterSelection.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/UserControlOptions.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/UserOptions.cs
+  - Assets/Scripts/Assembly-CSharp/Sonic/UserViewControls.cs
+  - Assets/Scripts/Assembly-CSharp/SpecialEffect.cs
+  - Assets/Scripts/Assembly-CSharp/SpecialEffectAnimator.cs
+  - Assets/Scripts/Assembly-CSharp/SpecialEffectHandler.cs
+  - Assets/Scripts/Assembly-CSharp/Spring.cs
+  - Assets/Scripts/Assembly-CSharp/Station.cs
+  - Assets/Scripts/Assembly-CSharp/Statistic.cs
+  - Assets/Scripts/Assembly-CSharp/StatisticModifier.cs
+  - Assets/Scripts/Assembly-CSharp/StatisticModifierSetupData.cs
+  - Assets/Scripts/Assembly-CSharp/StatisticModifierType.cs
+  - Assets/Scripts/Assembly-CSharp/StdFireProjectile.cs
+  - Assets/Scripts/Assembly-CSharp/StdItemGiver.cs
+  - Assets/Scripts/Assembly-CSharp/StdProjectile.cs
+  - Assets/Scripts/Assembly-CSharp/SwimMotionData.cs
+  - Assets/Scripts/Assembly-CSharp/TagContainer.cs
+  - Assets/Scripts/Assembly-CSharp/UBHelper.cs
+  - Assets/Scripts/Assembly-CSharp/UltimateBloom.cs
+  - Assets/Scripts/Assembly-CSharp/UltimateBloomPathLocator.cs
+  - Assets/Scripts/Assembly-CSharp/User.cs
+  - Assets/Scripts/Assembly-CSharp/UserInterface.cs
+  - Assets/Scripts/Assembly-CSharp/Utility.cs
+  - Assets/Scripts/Assembly-CSharp/UtopiaSonicRunHandler.cs
+  - Assets/Scripts/Assembly-CSharp/Vehicle.cs
+  - Assets/Scripts/Assembly-CSharp/Vital.cs
+  - Assets/Scripts/Assembly-CSharp/VitalRequirement.cs
+  - Assets/Scripts/Assembly-CSharp/WaterfallDisabler.cs
+  - Assets/Scripts/Assembly-CSharp/Weapon.cs
+  - Assets/Scripts/Discord RPC/Discord_Controller.cs
+  - Assets/Shader/DepthOfFieldDX11.shader
+  - Assets/Shader/DepthOfFieldScatter.shader
+  - Assets/Shader/DLAA.shader
+  - Assets/Shader/FrameDebuggerRenderTargetDisplay.shader
+  - Assets/Shader/FXAA2.shader
+  - Assets/Shader/FXAA3Console.shader
+  - Assets/Shader/FXAAPreset2.shader
+  - Assets/Shader/FXAAPreset3.shader
+  - Assets/Shader/FXWater4Advanced.shader
+  - Assets/Shader/Internal-DepthNormalsTexture.shader
+  - Assets/Shader/Internal-MotionVectors.shader
+  - Assets/Shader/Internal-ScreenSpaceShadows.shader
+  - Assets/Shader/Internal-StencilWrite.shader
+  - Assets/Shader/NFAA.shader
+  - Assets/Shader/Shader.shader
+  - Assets/Shader/SimpleClear.shader
+  - Assets/Shader/SSAA.shader
+  - Assets/Shader/SSAOShader.shader
+  - Assets/Shader/SunShaftsComposite.shader
+  - Assets/Shader/Tonemapper.shader
+  - Assets/Sprite/Background.asset
+  - Assets/Sprite/checkered background.asset
+  - Assets/Sprite/Checkmark.asset
+  - Assets/Sprite/input.asset
+  - Assets/Sprite/lives.asset
+  - Assets/Sprite/Page 1.asset
+  - Assets/Sprite/Page 2.asset
+  - Assets/Sprite/Page 3.asset
+  - Assets/Sprite/Page 4.asset
+  - Assets/Sprite/Page 5.asset
+  - Assets/Sprite/rings.asset
+  - Assets/Sprite/UIMask.asset
+  - Assets/Texture2D/animals.png
+  - Assets/Texture2D/back (00000).png
+  - Assets/Texture2D/Background.png
+  - Assets/Texture2D/badniks.png
+  - Assets/Texture2D/badniks_alt.png
+  - Assets/Texture2D/barrier.png
+  - Assets/Texture2D/Bokeh.png
+  - Assets/Texture2D/bottom (00000).png
+  - Assets/Texture2D/bridge dif.png
+  - Assets/Texture2D/bridge nrm.png
+  - Assets/Texture2D/bubble.png
+  - Assets/Texture2D/checker new.png
+  - Assets/Texture2D/checkered background.png
+  - Assets/Texture2D/Checkmark.png
+  - Assets/Texture2D/checkpoint.png
+  - Assets/Texture2D/cliff nrm.png
+  - Assets/Texture2D/Dust.png
+  - Assets/Texture2D/exp nrm.png
+  - Assets/Texture2D/explosion.png
+  - Assets/Texture2D/firesmall.png
+  - Assets/Texture2D/Flare50mm.png
+  - Assets/Texture2D/FlareMask.png
+  - Assets/Texture2D/flowerpatch small.png
+  - Assets/Texture2D/front (00000).png
+  - Assets/Texture2D/GHZ card.png
+  - Assets/Texture2D/glow.png
+  - Assets/Texture2D/goal panel.png
+  - Assets/Texture2D/grass dif.png
+  - Assets/Texture2D/grass floor ex 2.png
+  - Assets/Texture2D/HexShape.png
+  - Assets/Texture2D/hot bright.png
+  - Assets/Texture2D/input.png
+  - Assets/Texture2D/labyrinth tiles dif.png
+  - Assets/Texture2D/labyrinth tiles nrm.png
+  - Assets/Texture2D/lb tiles nrm.png
+  - Assets/Texture2D/left (00000).png
+  - Assets/Texture2D/lives.png
+  - Assets/Texture2D/logo.png
+  - Assets/Texture2D/monitor emit.png
+  - Assets/Texture2D/monitor icon barrier.png
+  - Assets/Texture2D/monitor icon invincible.png
+  - Assets/Texture2D/monitor icon life.png
+  - Assets/Texture2D/monitor icon ring.png
+  - Assets/Texture2D/monitor icon shoes.png
+  - Assets/Texture2D/monitor.png
+  - Assets/Texture2D/mountain tex.png
+  - Assets/Texture2D/MudRockyNormals.png
+  - Assets/Texture2D/objects.png
+  - Assets/Texture2D/Page 1.png
+  - Assets/Texture2D/Page 2.png
+  - Assets/Texture2D/Page 3.png
+  - Assets/Texture2D/Page 4.png
+  - Assets/Texture2D/Page 5.png
+  - Assets/Texture2D/plants.png
+  - Assets/Texture2D/props cutout dif.png
+  - Assets/Texture2D/props cutout nrm.png
+  - Assets/Texture2D/RandomVectors.png
+  - Assets/Texture2D/right (00000).png
+  - Assets/Texture2D/rings.png
+  - Assets/Texture2D/smokevanish.png
+  - Assets/Texture2D/Sonic v2 tex.png
+  - Assets/Texture2D/spark.png
+  - Assets/Texture2D/sparkb.png
+  - Assets/Texture2D/sparkle1.png
+  - Assets/Texture2D/sparkle2.png
+  - Assets/Texture2D/top (00000).png
+  - Assets/Texture2D/UIMask.png
+  - Assets/Texture2D/water sparkle.png
+  - Assets/Texture2D/water.png
+  - Assets/Texture2D/water2.png
+  _sharedPackages: []
