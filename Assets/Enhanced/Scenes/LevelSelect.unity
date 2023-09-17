@@ -1540,7 +1540,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -124.96857, y: -110.35887}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750175
 MonoBehaviour:
@@ -1668,7 +1668,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 56741481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb95db473b44ed94187fe9786f9e59f7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3993bc207991fa343a96b564fb943a0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &56741483
@@ -1707,7 +1707,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &696790958
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1816,7 +1816,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 56741482}
+      - m_Target: {fileID: 0}
         m_MethodName: EHCredits
         m_Mode: 1
         m_Arguments:
@@ -2161,7 +2161,7 @@ GameObject:
   - component: {fileID: 1134542381}
   - component: {fileID: 1134542380}
   m_Layer: 5
-  m_Name: 'Button:  Play'
+  m_Name: 'Button:  SA2 GHZ'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2276,7 +2276,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 56741482}
-        m_MethodName: MainPlay
+        m_MethodName: SA2GHZ
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2472,7 +2472,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PLAY
+  m_Text: SA2 GHZ
 --- !u!114 &1177965335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2512,7 +2512,7 @@ GameObject:
   - component: {fileID: 1321117382}
   - component: {fileID: 1321117381}
   m_Layer: 5
-  m_Name: 'Button:  Modes'
+  m_Name: 'Button:  RRDX'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2627,7 +2627,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 56741482}
-        m_MethodName: MS
+        m_MethodName: RRDX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2727,7 +2727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1547537135
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2836,7 +2836,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 56741482}
+      - m_Target: {fileID: 0}
         m_MethodName: EHCredits
         m_Mode: 1
         m_Arguments:
@@ -2954,7 +2954,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -269.96857, y: -110.35887}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1589011691
 MonoBehaviour:
@@ -3174,7 +3174,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MODES
+  m_Text: RAINBOW ROAD DX
 --- !u!114 &2140462398
 MonoBehaviour:
   m_ObjectHideFlags: 0

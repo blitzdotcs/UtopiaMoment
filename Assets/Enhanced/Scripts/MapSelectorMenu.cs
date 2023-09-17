@@ -3,21 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EnhancedMenu : MonoBehaviour 
+public class MapSelectorMenu : MonoBehaviour 
 {
-    public void MainPlay()
+    public void SA2GHZ()
     {
-		SceneManager.LoadScene("Sandbox");
+		SceneManager.LoadScene("sa2ghz");
 	}
 
-    public void MS()
+    public void RRDX()
     {
-		SceneManager.LoadScene("ModeSelector");
-	}
-
-	public void LS()
-	{
-		SceneManager.LoadScene("LevelSelect");
+		SceneManager.LoadScene("gayroaddx");
 	}
 
 	public void EHCredits()

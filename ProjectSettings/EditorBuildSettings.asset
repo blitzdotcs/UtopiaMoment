@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Games/Sonic Utopia/Scenes/Main Menu/Main Menu.unity
-    guid: 6572da740460d544ba3c39d64f180a4c
   - enabled: 1
     path: Assets/Enhanced/Scenes/EhancedTitle.unity
     guid: 31fa098c90ad9454e9c768076db23e65
@@ -17,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Enhanced/Scenes/Creds.unity
     guid: 81f47542bd1306d4691772b5fb21459e
+  - enabled: 1
+    path: Assets/Enhanced/Scenes/LevelSelect.unity
+    guid: d9ccbbe779cbf32418ef69781e349ea3
+  - enabled: 1
+    path: Assets/Enhanced/Scenes/sa2ghz.unity
+    guid: a9ca2f50304f11d44baaf23557c7aa1e
+  - enabled: 1
+    path: Assets/Enhanced/Scenes/gayroaddx.unity
+    guid: c3333633158aed64caf91d5c292d7de6
+  - enabled: 1
+    path: Assets/Enhanced/Scenes/ModeSelector.unity
+    guid: 710e50e09101d6a4c937ace1d4cb19e9
   m_configObjects: {}
