@@ -12,6 +12,8 @@
 
 * [BlitzEX (me!)](https://https://twitter.com/blitzexlmao) - Main Dev on this project
 
+* TyDev - Giving me tips on unity
+
 * Pac-YT - SA2 GHZ Model
 
 * CTGP-7 - Rainbow Road DX
