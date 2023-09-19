@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Enhanced/Scenes/gayroaddx.unity
     guid: c3333633158aed64caf91d5c292d7de6
-  - enabled: 1
-    path: Assets/Enhanced/Scenes/ModeSelector.unity
-    guid: 710e50e09101d6a4c937ace1d4cb19e9
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

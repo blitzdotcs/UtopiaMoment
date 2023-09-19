@@ -15,6 +15,12 @@ public class MapSelectorMenu : MonoBehaviour
 		SceneManager.LoadScene("gayroaddx");
 	}
 
+    public void BoxesofSand()
+    {
+		SceneManager.LoadScene("Sandbox");
+	}
+
+
 	public void EHCredits()
 	{
 		SceneManager.LoadScene("Creds");
